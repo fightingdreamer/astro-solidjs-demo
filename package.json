@@ -1,0 +1,23 @@
+{
+  "name": "astro-solid-demo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+    "serve": "HOST=127.0.0.1 PORT=4321 bun ./dist/server/entry.mjs",
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.5.0",
+    "@astrojs/solid-js": "^5.1.2",
+    "@tailwindcss/vite": "^4.1.16",
+    "astro": "^5.15.2",
+    "solid-js": "^1.9.10",
+    "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "solid-devtools": "^0.34.4"
+  }
+}
